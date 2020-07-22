@@ -1,0 +1,237 @@
+<!-- always name your primary document "index" as this will convey to every machine and software
+that this file should be read first for pathing purposes  -->
+
+<!-- to type a comment in html, surround it by theese tags, everything in  green is a comment-->
+
+<!-- instead of typing all the boilerplate code for an html file as discussed, we will enter one
+single character: "!", and vsCode will do the work for us-->
+
+<!-- this line below tells our machine what type of document this is, so that the machine knows how to read it -->
+<!DOCTYPE html>
+
+<!-- this line below tells our machine that everything sandwiched between the opening and closing
+    html tags is part of the html document, and what language this document is in-->
+<html lang="en">
+
+<!-- this section below, tagged <head> </head> is an important set of instructions this document
+should follow before it loads any content -->
+<head>
+    <!-- this meta tag below controls how the edited text is read by the machine -->
+    <meta charset="UTF-8">
+
+    <!-- this tag below sets this document to be scaled to the screen width of the viewing device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this tag below sets capabilities for microsoft web browsers -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- the tag below is a link to our bootstrap library of css objects-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- the tag below is a link to our neighboring css file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- this tag below sets a title to be displayed on the internet browser's tab -->
+    <title>My First HTML Page</title>
+</head>
+
+<!-- the body tag contains all the content to be displayed on the document in the viewport (browser) -->
+<body>
+
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <h1 class="display-4">GLOBAL INTEGRITY</h1>
+                      <p class="lead">WELCOME TO THE CSS CLASS: KEEP ON STYLIN'!</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+<br>
+<br>
+
+        <div class="row">
+            <div class="col">
+                <h3>Fill out this form to sign up for class!</h3>
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Choose a class</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Web Dev 101</option>
+                        <option>Investing 101</option>
+                        <option>Biz Dev 101</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect2">Choose another class (optional)</label>
+                      <select class="form-control" id="exampleFormControlSelect2">
+                        <option>Web Dev 101</option>
+                        <option>Investing 101</option>
+                        <option>Biz Dev 101</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">Choose another class (optional)</label>
+                        <select class="form-control" id="exampleFormControlSelect2">
+                          <option>Web Dev 101</option>
+                          <option>Investing 101</option>
+                          <option>Biz Dev 101</option>
+                        </select>
+                      </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Do you have any special needs or requests we may be able to cater to?</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </form>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img src="jorge.jpeg" alt="a picture of a smiling man" >
+          </div>
+          
+          <div class="col">
+            <img src="jorge.jpeg" alt="a picture of a smiling man" >
+          </div>
+          
+          <div class="col">
+            <img src="jorge.jpeg" alt="a picture of a smiling man" >
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="col">
+            <button>
+                Click Here to become a Student of mine!
+            </button>
+          </div>
+         
+          <div class="col">
+            <a href="https://www.linkedin.com/in/george-aguilar-176414199/">
+                Click Here to read my reviews on LinkedIn!
+            </a>
+          </div>
+        
+          <div class="col">
+            <button>
+                Click Here to join my professional network!
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- the <h1></h1> through <h6></h6> tags are to display your text as a heading, each tag decreasing in size
+    as the tag number increases in size -->
+    <h1> This is a big ass heading </h1>
+
+    <!-- this tag below is just a block of text, a paragraph-->
+    <p> Hello this is a paragraph, the p tag is the most common way to wrap blocks of text on html </p>
+
+    <!-- em tag italicizes our text -->
+    <h6> <em>This is a tiny ass heading</em> </h6>
+
+    <!-- this tag below creates a line break of empty space so that our content isn't all squished together-->
+    <br>
+    
+    <!-- to add a solid line break, you use the <hr> tag -->
+    <hr>
+
+    <!-- the tag below connects images to this page-->
+    <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" alt="a grandma holding a gun" >
+
+    <img src="jorge.jpeg" alt="a picture of a smiling man" >
+
+    <!-- the tag below is mostly used to link between your website's pages and other websites -->
+    <a href="index2.html" >
+    Click here to see another web page of ours
+    </a>
+
+    <a href="https://www.linkedin.com/in/george-aguilar-176414199/">
+    Click here to be redirected to my linkedin page
+    </a>
+
+    <!-- the tags below create unordered bulleted lists, or ordered numbered lists-->
+
+    <h4>
+        A list of my favorite places in the world
+    </h4>
+
+    <ul>
+        <li class="texas">
+            Texas
+        </li>
+        <li class="mexico">
+            Mexico
+        </li>
+        <li class="vietnam">
+            Vietnam
+        </li>
+    </ul>
+
+    <br>
+
+    <h4>
+        These are my favorite drinks, from most to least
+    </h4>
+    <ol>
+        <li>
+            water
+        </li>
+        <li>
+            beer
+        </li>
+        <li>
+            italian soda
+        </li>
+    </ol>
+
+    <br>
+
+    <!-- the <strong></strong> tag bolds text for us-->
+    <strong>Coding Rocks!</strong>
+
+</body>
+
+</html>
