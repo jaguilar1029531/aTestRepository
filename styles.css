@@ -1,0 +1,40 @@
+.btn1 {
+    background-color: cyan;
+    color: darkmagenta;
+}
+
+.btn2 {
+    background-color: darksalmon;
+    color: deeppink;
+}
+
+.btn3 {
+    background-color: greenyellow;
+    color: darkgreen;
+}
+
+.meat {
+    color: brown;
+}
+
+.animals {
+    color: darkblue;
+}
+
+h1 {
+    font-size: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    height: 10px;
+    width: 10px;
+}
+
